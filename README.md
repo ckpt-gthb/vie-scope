@@ -7,7 +7,7 @@ A desk instrument that shows the air traffic around Vienna on a round, radar-sty
 
 > **Status (Oct 2026):** parts ordered, hardware build starting. The image above is a concept render. Code, enclosure CAD and the full build guide will be published here once the unit works.
 
-> **Fair warning: this is an expensive toy.** Parts so far come to roughly **€1,200–1,300 including shipping**. Most of that goes into two SDR receivers, the antennas and two good displays. A basic ADS-B map with one RTL-SDR stick and a Pi costs a fraction of this. VIE·SCOPE is about the instrument-panel look and having voice and traffic in one box.
+> **Fair warning: this is an expensive toy.** Parts so far come to roughly **€ 1400 including shipping**. Most of that goes into two SDR receivers, the antennas and two good displays. A basic ADS-B map with one RTL-SDR stick and a Pi costs a fraction of this. VIE·SCOPE is about the instrument-panel look and having voice and traffic in one box.
 
 ## What it does
 - **Radar-style scope** on a 5" round display: live ADS-B traffic, received with its own antenna, around a fixed home position.
