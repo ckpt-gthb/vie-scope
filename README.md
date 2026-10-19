@@ -29,7 +29,7 @@ A desk instrument that shows the air traffic around Vienna on a round, radar-sty
 | | Airspy Mini | 1 |
 | | N→SMA adapter, SMA pigtails 30 cm + 15 cm, 5 m active USB 2.0 extension | 1&nbsp;set |
 | Airband 118–137 MHz | Airspy R2 | 1 |
-| | DIY half-wave dipole: 2 × Ø 4 mm brass tube, N panel socket, 4 clip-on ferrites | 1 |
+| | DIY half-wave dipole: 2 × Ø 4 mm brass rod, N panel socket, 4 clip-on ferrites | 1 |
 | | RG58 coax, N → SMA, 5 m | 1 |
 | Antenna mount | Floor-to-ceiling tension pole indoors at the window, two aluminium arms, printed collars | 1&nbsp;set |
 | Audio | MAX98357A I²S amplifier · Visaton FRS 7 A 8 Ω full-range driver | 1&nbsp;each |
