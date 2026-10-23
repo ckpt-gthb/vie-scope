@@ -5,14 +5,14 @@
 
 A desk instrument that shows the air traffic around Vienna on a round, radar-style scope, plays the airband radio and transcribes it live. Everything runs locally on a Raspberry Pi 5: no cloud, no subscription, no tablet look.
 
-> **Status (Oct 2026):** parts ordered, hardware build starting. The image above is a concept render. Code, enclosure CAD and the full build guide will be published here once the unit works.
+> **Status (Oct 2026):** almost all parts are in; the antenna mount is designed and ready to print; control firmware and the scope software run in simulation. The image above is a concept render. Code, enclosure CAD and the full build guide will be published here once the unit works.
 
 > **Fair warning: this is an expensive toy.** Parts so far come to roughly **€ 1400 including shipping**. Most of that goes into two SDR receivers, the antennas and two good displays. A basic ADS-B map with one RTL-SDR stick and a Pi costs a fraction of this. VIE·SCOPE is about the instrument-panel look and having voice and traffic in one box.
 
 ## What it does
 - **Radar-style scope** on a 5" round display: live ADS-B traffic, received with its own antenna, around a fixed home position.
 - **8.8" bar display**: details of the selected aircraft, a live transcript of the airband radio and the current ATIS.
-- **Airband audio** through a built-in speaker, plus on-device speech-to-text with an ATC-tuned Whisper model.
+- **Airband audio** through a built-in speaker, plus on-device speech-to-text with an ATC-tuned speech model.
 - **Follow mode**: pick an aircraft with a knob, and VIE·SCOPE works out which frequency it is on from what it hears, including hand-offs ("contact Wien Radar 134.675").
 - **Real controls**: concentric knobs, lit keys, a surplus mil-spec toggle as the master switch. Both displays have touch, but it is reserved for rarely used functions such as settings and service; day-to-day operation is all knobs and keys.
 
