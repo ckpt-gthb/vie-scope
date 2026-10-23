@@ -1,11 +1,15 @@
 # VIE·SCOPE
 **Air Traffic & Airband Monitor**
 
-![VIE·SCOPE concept render](img/vie-scope.png)
+![VIE·SCOPE concept render: a desk instrument with a round radar scope on the left and a wide bar display, knobs, lit keys and a toggle switch on the right, grey face panels on a black case](img/vie-scope_hero.jpg)
+
+| ![Close-up of the control row: two concentric knobs, three lit keys and the master toggle](img/detail_controls.jpg) | ![Close-up of the round scope bezel with the selector knob and a corner screw](img/detail_scope.jpg) | ![Rear view: aluminium rails across both trays and the antenna inputs, data plate behind](img/detail_rear.jpg) |
+|:---:|:---:|:---:|
+| Knobs, keys, master switch | Scope bezel and SEL knob | Rear: rails and antenna inputs |
 
 A desk instrument that shows the air traffic around Vienna on a round, radar-style scope, plays the airband radio and transcribes it live. Everything runs locally on a Raspberry Pi 5: no cloud, no subscription, no tablet look.
 
-> **Status (Oct 2026):** almost all parts are in; the antenna mount is designed and ready to print; control firmware and the scope software run in simulation. The image above is a concept render. Code, enclosure CAD and the full build guide will be published here once the unit works.
+> **Status (Oct 2026):** almost all parts are in; the antenna mount is designed and ready to print; control firmware and the scope software run in simulation. The images above are concept renders. Code, enclosure CAD and the full build guide will be published here once the unit works.
 
 > **Fair warning: this is an expensive toy.** Parts so far come to roughly **€ 1400 including shipping**. Most of that goes into two SDR receivers, the antennas and two good displays. A basic ADS-B map with one RTL-SDR stick and a Pi costs a fraction of this. VIE·SCOPE is about the instrument-panel look and having voice and traffic in one box.
 
@@ -38,7 +42,7 @@ A desk instrument that shows the air traffic around Vienna on a round, radar-sty
 | | MS35058-24 toggle (FEME Milano), military surplus | 1 |
 | | ULN2003A driver · 150 Ω resistors · 5 V COB LED strip (panel lighting) | 1&nbsp;set |
 | Sensor | TSL2591 light sensor (auto-dimming) | 1 |
-| Enclosure | Black PETG-CF (faces, trays), translucent white PETG (backlit labels, AMS inlay) | 1&nbsp;to&nbsp;2&nbsp;kg |
+| Enclosure | Grey PETG-CF (face modules), black PETG-CF (trays, bezels), translucent white PETG (backlit labels, AMS inlay) | 1&nbsp;to&nbsp;2&nbsp;kg |
 | | 2 × aluminium tube 20 × 10 mm (backbone rails) · black countersunk M3/M2 Phillips screws · heat-set inserts | 1&nbsp;set |
 
 Printed on a Bambu Lab P2S with AMS. Labels are set in [B612](https://github.com/polarsys/b612), the font designed for Airbus cockpit displays.
